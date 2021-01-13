@@ -1,0 +1,160 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+<title>FrontEnd Mentor|Profile Card</title>
+<meta charset='utf-8'>
+<link rel= "preconnect" href= "https://fonts.gstatic.com">
+<link href="https://fonts.google.com/specimen/Kumbh+Sans" rel="stylesheet">
+<style>
+   .container{
+		margin:auto;
+		font-family: 'Kumbh Sans', sans-serif;
+        font-weight: 700;
+        font-display: swap;
+             }
+    .card{ 
+        width:1440px;
+        height:800px;
+        background-color: hsl(185, 75%, 39%);
+        margin:auto;
+        position:relative;
+        background-image:url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
+        background-repeat: no-repeat;
+        background-position: 700px 450px,-200px -400px;
+        display: inline-block;
+    }  
+	
+    .visitor{
+        height: 50%;
+        width: 25%;
+        background-color: white;
+        margin-top:15%;
+        margin-left:40%;
+        position: relative;
+        display: inline-block;
+        border-radius: 20px;
+    }
+    .header{
+        display: inline-block;
+        width: 100%;
+        position:absolute;
+    }
+    .upper{
+        display: inline-block;
+        width:100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .profile{
+        display:inline-block;
+        position:relative;
+        margin-top: 90px;
+        margin-left: 125px;
+    }
+    .dp{
+        border-radius: 50%;
+        border:5px solid white;
+    }
+    .info{
+        display:flex;
+        flex-direction:row;
+    }
+    .name{
+        font-size: 18px;
+        font-weight: 700;
+        margin: 20px 0 0 120px;
+    }
+    .age{
+        font-size: 18px;
+        font-weight:700;
+        color: gray;
+        margin: 20px 0 0 10px;
+    }
+    .country{
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 160px;
+        font-weight: 400px;
+        color: gray;
+        padding-bottom:10px;
+        position: relative;
+    }
+    hr{
+        color:gray;
+        border-color: hsl(0,0,59%);
+        border-bottom-width: 20;
+    }
+    .bottom{
+        text-align:center;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left:50px;
+        padding-right:50px;
+    }
+    .f-text{
+        color:gray;
+        font-size:11px;
+        font-weight:400;
+        margin-top: -10px;
+    }
+    ul{
+        margin:0;
+    }
+    .remarks{
+        font-size:11px;
+        text-align: center;
+        margin-top:150px;
+        margin-left:70px;
+    }
+    .remarks a:hover{
+        color:hsl(228,45%,44%);
+    }
+
+
+
+
+        
+    
+
+</style>
+
+<body>
+<div class='container'>
+    <div class='card'>
+    <div class='visitor'>
+        <div class="header">
+            <img class='upper' src='images/bg-pattern-card.svg' alt='bg-pattern-card'>
+            </div>
+		   <div class='profile'>
+                <img class='dp' src='images/image-lfk.jpg' alt='profile pic'>
+            </div>
+            <div class='info'>
+                <h2 class='name'>Lawal Faruq</h2>
+                <h2 class='age'>19</h2>
+            </div>
+            <p class='country'>Nigeria</p>
+<hr>
+      
+        <div class='bottom'>
+            <div class='followers'><p>80K</p>
+            <p class='f-text'>Followers</p>
+            </div>
+            <div class='likes'><p>803K</p>
+            <p class='f-text'>Likes</p>
+            </div>
+            <div class='photos'>
+                <p>1.4K</p>
+                <p class='f-text'>Photos</p>
+            </div>
+        </div>
+    </div>
+<div class='remarks'>Challenge by <a href="https://www.frontendmentor.io" target="blank" >Frontend Mentor</a>
+    |Written by <a href="https://www.frontendmentor.io/profile/Homeopathlfk" target="blank">Homeopathlfk</a>
+    |Inspired and guided by<a href="https://github.com/EmmaPham" target="-blank">Mai Pham</a></div>
+
+</div>
+</div>
+</body>
+</html>

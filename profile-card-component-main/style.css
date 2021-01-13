@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    background-image: url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
+    background-color: hsl(185, 75%, 39%);
+    background-repeat: no-repeat;
+    font-family: 'Kumbh Sans';
+    font-size: 18px;
+    background-position: 700px 450px,-200px -400px;
+    font-weight: 700;
+}
+
+
+
+#container{
+    color: black;
+    box-sizing: content-box;
+    width: 350px;
+    height: 370px;
+    background-color: white;
+    border-radius: 5%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#cabecalho img{
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+
+#profile{
+    text-align: center;
+    margin-top: -4em;
+}
+
+#profile img{
+    border-radius: 50%;
+    border: 0.2em solid white;
+}
+
+#info{
+    display: inline;
+}
+
+#info h2#nome{
+    text-align: center;
+    font-size: 18px;
+}
+
+#info h2#idade{
+    margin-top: -9.7%;
+    margin-left: 72%;
+    font-size: 18px;
+    font-weight: 100;
+    color: hsl(227, 10%, 46%)
+}
+
+p#pais {
+    font-size: 18px;
+    color: hsl(227, 10%, 46%);
+    text-align: center;
+}
+
+hr{
+    color: hsl(227, 10%, 46%);
+}
+
+#seguidores {
+    font-weight: 700;
+    text-align: center;
+}
+
+#likes{
+    text-align: center;
+}
+
+#fotos {
+    text-align: center;
+}
+
+#redesSociais{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-around;
+}
+
+#redesSociais p{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#redesSociais p.legenda{
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(227, 10%, 46%);
+    margin-top: -1.5em;
+}
+
+.attribution { font-size: 11px; text-align: center; margin-top: 1em; }
+.attribution a { color: hsl(228, 45%, 44%); }
