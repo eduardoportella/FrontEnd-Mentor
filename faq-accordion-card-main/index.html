@@ -12,19 +12,30 @@
 </head>
 <body>
   <div id="box">
-    <div id="images">
-    <picture id="imageLeft">
-      <source media="(min-width: 1060px)" srcset="images/illustration-box-desktop.svg">
-      <img src="" alt="">
-    </picture>  
-    <picture id="imageRight">
-        <source media="(min-width: 1060px)" srcset="images/illustration-woman-online-desktop.svg" id="image2">
-        <img src="images/illustration-woman-online-mobile.svg" alt="" id="imageMobile">
-    </picture>
+    <div id="desktop"> 
+      <div class="sombra">
+        <img src="images/bg-pattern-desktop.svg" alt="">
+      </div>
+      <div class="imgDesktop">
+        <img src="images/illustration-woman-online-desktop.svg" alt="">
+      </div>
+      <div class="caixa">
+        <img src="images/illustration-box-desktop.svg" alt="">
+      </div>
     </div>
+
+    <div class="imgMobile">
+      <div class="imgMobile">
+        <img src="images/illustration-woman-online-mobile.svg" alt="">
+      </div>
+      <div class="sombraMobile">
+        <img src="images/bg-pattern-mobile.svg" alt="">
+      </div>
+    </div>
+
     <div id="text">
       <h1 id="faq">FAQ</h1>
-      <h2>How many team members can I invite?</h2>
+      <input type="checkbox" name="q1" id="q1"><label for="q1"><p>How many team members can I invite? <img src="images/icon-arrow-down.svg" alt=""></p></label>
       <hr>
       <h2>What is the maximum file upload size?</h2>
       <hr>

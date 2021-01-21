@@ -12,30 +12,42 @@ body{
     max-height: 700px;
     margin: auto;
     margin-top: 15%;
-    text-align: justify;
-    display: grid;
+    /* FAQ CONTAINER QUEBRA DE LINHA */
+    align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: center;
 }
 
-#images {
-    display: inline;
-    flex: 0 0 200px;
-    width: 150px;
-}
-
-picture#imageLeft{
+.sombra{
     position: absolute;
-    margin-top: 9em;
-    margin-left: -6.2em;
+    top: -15em;
+    left: -25em;
+    z-index: 0;
 }
 
-picture#imageRight{
-    margin-left: -3em;
-    max-width: 100%;
+.imgDesktop{
+    position: absolute;
+    top: 7em;
+    left: 7em;
+    z-index: 1;
 }
 
+.caixa {
+    position: absolute;
+    top: 15.5em;
+    left: 6.6em;
+    z-index: 2;
+}
 
+.imgMobile {
+    visibility: hidden;
+}
+
+ 
 #text{
-    margin: 0px;
+    position: relative;
     font-family: 'Kumbh Sans';
     font-weight: 400;
     color:hsl(0, 0%, 39%);
